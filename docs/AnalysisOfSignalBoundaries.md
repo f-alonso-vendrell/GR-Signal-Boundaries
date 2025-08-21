@@ -1,6 +1,7 @@
 # Analysis Of Signal Boundaries
 
 Fernando Alonso Vendrell
+
 v0.1
 
 # Abstract
@@ -222,22 +223,31 @@ Solving the equations for events received by Observer at r=0.001 and plotting it
 
 ![Fig Fig 13. Bean Boundaries for infalling rain-drop Observer. Observer far from Event Horizon](Fig13.png "Bean Boundary Observer far")
 
+In Figs 13_raw and 13 it is plotted the Bean Boundary at a time t when the Observer is still far from the Event Horizon
+
 ![Fig 14_raw. Raw data Bean Boundaries for infalling rain-drop Observer. Observer approaches Event Horizon](Fig14_raw.png "Bean Boundary approaching")
 
 ![Fig Fig 14. Bean Boundaries for infalling rain-drop Observer. Observer approaches Event Horizon](Fig14.png "Bean Boundary approaching")
+
+In Figs 14_raw and 14 it is plotted the Bean Boundary at a time t when the Observer gets closer to the Event Horizon, the shape starts to differ from the 2 circles of the Lazy Boundaries
 
 ![Fig 15_raw. Raw data Bean Boundary for infalling rain-drop Observer. Connected Boundaries](Fig15_raw.png "Bean Boundary connection of Boundaries")
 
 ![Fig Fig 15. Bean Boundary for infalling rain-drop Observer. Connected Boundaries](Fig15.png "Bean Boundary connection of Boundaries")
 
+In Figs 15_raw and 15 it is plotted the Bean Boundary at a time t when the Boundaries become one single Signal Boundary.
+
 ![Fig 16_raw. Raw data Bean Boundary for infalling rain-drop Observer. Bean shape](Fig16_raw.png "Bean Boundary bean shape")
 
 ![Fig Fig 16. Bean Boundary for infalling rain-drop Observer. Bean shape](Fig16.png "Bean Boundary bean shape")
+
+In Figs 16_raw and 16 it is plotted the Bean Boundary once the Observer is inside the Event Horizon, it takes the shape of a Bean in the chosen coordinates.
 
 ![Fig 17_raw. Raw data Bean Boundary for infalling rain-drop Observer. Near singularity](Fig17_raw.png "Bean Boundary near singularity")
 
 ![Fig 17. Bean Boundary for infalling rain-drop Observer. Near singularity](Fig17.png "Bean Boundary near singularity")
 
+In Figs 17_raw and 17 as the Observer approaches the singularity the Bean Boundary and it becomes more convex.
 
 There are several considerations to analyze on the Bean Boundaries:
 
@@ -328,7 +338,7 @@ Additionally for two timeslices close enough (t1 and t2), if none of the rays wi
 
 # ANNEX B
 
-![Fig 20. Blip Observation by Observer in Volume and when Observer moves in a flat plane](Fig0.png "Blip detection by Observer")
+![Fig 20. Blip Observation by Observer in Volume and when Observer moves in a flat plane](Fig20.png "Blip detection by Observer")
 
 In Figure 20 it is graphically described how the Blip detection is defined, based on the orientability of small sectors of the Blip frontline and that at a t1 the Observer is one side and at t2 is in the other side.
 
