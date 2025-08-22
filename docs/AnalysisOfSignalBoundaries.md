@@ -2,15 +2,15 @@
 
 Fernando Alonso Vendrell
 
-v0.1
+v0.2
 
-# Abstract
+# 1. Abstract
 
 Using General Relativity, this paper discusses different regions of space-time based on wether a signal on these regions can or can not be received by an Observer. This analysis is observer dependent, from individual Obsevers it will be derived comonalities for different Observers that share some characteristics of their worldlines.
 
 This paper follows exclusivelly standard General Relativity equations under some simple scenarios, these scenarios are built as spherically simetric and presented graphically to identify the different regions of spacetime of interest. This paper does not derive any physical consequences from the analysis of these regions.
 
-# Introduction and Definitions
+# 2. Introduction and Definitions
 
 Whether a signal emmited from an Event in spacetime with coordinates (t_sub_event,r_sub_event,theta_sub_event, phi_sub_event) is detected or not by an Observer according to General Relativity is something that can be calculated. This fact is independent of the coordinates system, driving different conclusions in different coordinates systems should be due to limitations on the coordinates systems used. 
 
@@ -49,11 +49,11 @@ If one Blip is not received in finite proper time by the observer in one particu
 
 In this paper all implied constants (G, c) will be set to 1. Signal Boundary analysis will focus on existence, topology and evolution with global coordinate time. 
 
-# Flat Space
+# 3. Flat Space
 
 First it will be analyzed 2 scenarios in flat space, the first one in which the Observer proper acceleration is zero, and a second one in which the Observer proper acceleration is constant
 
-## 1.- Observer proper acceleration is zero
+## 3.1. Observer proper acceleration is zero
 
 This is the simplest scenario, in flat Minkowski empty space any Blip generated at any Event will be perceived by any Observer with proper acceleration zero, this can be depicted in the following conformal diagram. 
 
@@ -61,7 +61,7 @@ This is the simplest scenario, in flat Minkowski empty space any Blip generated 
 
 In Fig 2. In dark green the Observer worldline in which it has been selected an Event of it as being the zero (0) of its proper time. A Blip is generated at Event A and the signal is detected by the Observer at Event B (before the Event marked as zero).
 
-## 2.- Observer proper acceleration is constant forever
+## 3.2. Observer proper acceleration is constant forever
 
 In this scenario there are certain Event Blips that are detected by the Observer while there are other that are not, therefore a Signal Boundary is identified.
 
@@ -71,7 +71,7 @@ In Fig 3. In dark green the Observer worldline in which it has been selected an 
 
 It is worth comparing this Signal Boundary with the Rindler Horizon \[1\]\[2\]. In this particular case the Signal Boundary is the Rindler Horizon.  
 
-# Observer on the surface of a large static spherical mass without Physical singularity
+# 4. Observer on the surface of a large static spherical mass without Physical singularity
 
 In this case although the Observer experiences a constant proper acceleration it is kept on the same position of the surface of a large non rotating spherical mass. In this scenario it could be thought that there is a Signal Boundary similar to the one in scenario 2 but if by attending to the Signal Boundary definition it can be seen that is false, there is no Signal Boundary. 
 
@@ -83,11 +83,11 @@ The metric in this scenario can be splitted into 2 metrics, both spherically sim
 
 Since there is no singularity in this scenario and the Blip frontline is a continuous 2D surface that expands from its originaing Event until the enclosed volume comprises the whole scenario (Mass, Observer and Blip Event spacial location), that means that at a certain t1 Observer is at top of certain sector of the Blip frontline, while at another t2 the Observer is at botton of that sector. The particular wordline that crosses the Observer wordline could be found, but that is outside the scope of this paper. Detection by the Observer is independent of the spacial location of the Event originating the Blip (inside the Mass or outside the mass). In this scenario there is no Signal Boundary for this Observer.
 
-# Non Rotating Blackholes
+# 5. Non Rotating Blackholes
 
 An scenario with a non rotating blackhole is the simplest one in which there is a physical singularity according to General Relativity, several scenarios and assumptions will be detailed in this section.
 
-## Observer worldline outside event horizon
+## 5.1. Observer worldline outside event horizon
 
 In this case it is well known that there is an Event Horizon at the Swartzchild radius, which also defines a Signal Boundary for those Observers whose wordline always remain outside the black hole.
 
@@ -95,7 +95,7 @@ In this case it is well known that there is an Event Horizon at the Swartzchild 
 
 In Fig 4. Blips with origin inside Black Hole Event Horizon end in the singularity, depicted as an horizontal sinusoidal line. Observer wordline does not cross the Blip at any time.
 
-## Observer worldline ending in static black hole singularity
+## 5.2. Observer worldline ending in static black hole singularity
 
 The next scenario Observer enters a non rotating black hole. In this case Observer wordline ends as it reaches the singularity, based on the Signal Boundary definition, there will be Blips that are detected before reaching the singularity and Blips that can not be assigned a well defined proper time once the Observer is in the Singularity.
 
@@ -103,7 +103,7 @@ This analyisis will be done in two approaches, in the first one (Lazy Boundaries
 
 In the second assumption and scenario (Bean Boundary) it will be constrainged that at the singularity at a given t the Event (t,r=0,phi_sub_1, theta_sub_1) is different from the Event (t,r=0,phi_sub_2,theta_sub_2) except if phi_sub_1=phi_sub_2 and theta_sub_2=phi_sub_2. This scenario will be solved numerically to show which Events can be detected by the Observer rigth up to the last Event where Observer proper time is well defined.
 
-### Lazy Boundaries, analitical approach
+### 5.2.1. Lazy Boundaries, analitical approach
 
 In this scenario it is known that Observer reaches the singularity at a given (t_sub_fin,r=0,theta_sub_fin,phi_sub_fin) and that the Blips that it will be received at that last Event in the Observer wordline will be the ones that reach the singularity at that (t_sub_fin,r=0) any signal that reaches r=0 at a differnt t will be identified as not observed by the Observer since it can not be stated at which proper time the Observer did the observation.
 
@@ -112,6 +112,7 @@ To do this analysis Gullstrand–Painlevé Coordinates [3] will be used. First i
 In this case the equation of motion are:
 
 dr/dt = +1-sqrt(2M/r) for rays "pointing out"
+
 dr/dt = -1-sqrt(2M/r) for rays "pointing in"
 
 As a boundary condition for these equations it that at t_sub_fin then r=0, so at any prior time (e.g. -1.0 the ray must have a r value non zero), as at that coordinate is the last Event for which the Observer proper time can be calculated.
@@ -166,7 +167,7 @@ The second one is the reminder of Events in space time. Blips generated from the
 
 At t=-oo this is the same as the black hole Event Horizon.
 
-** Overall Lazy Boundaries
+**Overall Lazy Boundaries**
 
 With the 2 hypersurfaces defined below it can be noticed that any Blip generated at Events outside the region defined by the 2 hypersurfaces will either fully end in the singularity in a t\<tfin or will reach the singularity in a t>tfin, therefore it can not be calculated the proper time at which it is observed by Observed, therefore it is known for sure that these Events are behind a Signal Boundary.
 
@@ -177,6 +178,12 @@ These 2 hypersurfaces define a Signal Boundary, at a given time t\<tfin Events w
 ![Fig 7. Lazy Boundaries for infalling rain-drop Observer. r horizontal axis, t vertical axis](Fig7.png "Lazy Boundaries r-t diagram")
 
 In Fig 7 an Observer following a radial raindrop trayectory sees 2 Signal Boundaries. Horizontal axis represents r coordinate in multiples of M (mass of blackhole), Vertical axis  represents t coordinate in multiples of M too. Gullstrand Painlev Coordinates.
+
+![Fig 7.1. Lazy Boundaries for infalling rain-drop Observer. conformal diagram](Fig7.1.png "Lazy Boundaries conformal diagram")
+
+In Fig 7.1 (same as Fig 7.) an Observer following a radial raindrop trayectory sees 2 Signal Boundaries, Observer doesn't follow a specific inertial or non inertial path. In the Conformal diagram the 2 boundaries are represented by the 2 ligth rays converging into the Observer as it reaches the Singularity.
+
+Note that this has been depicted in previous works (likely as something obvious), in particular the author would like to bring the inspiring picture from Rogers Penrose "The Road to Reallity" in Figure 27.18 [3.1]
 
 ![Fig 8. Lazy Boundaries for infalling rain-drop Observer. time slice 1](Fig8.png "Lazy Boundaries polar coordinates at a fixed t")
 
@@ -203,7 +210,7 @@ For this there are two scenarios for an eternal black hole. First, while the Obs
 
 In Fig 11 and 12 it is shown Limit Boundaries wether the Observer is outside or inside the Event Horizon
 
-### Bean Boundary, numerical approach
+### 5.2.2. Bean Boundary, numerical approach
 
 In comparison to the previous approach to the Lazy Boundaries where it was determined with certainty the Events whose Blips will not be detected by the Observer, Now it will identified Events whose Blips will be detected with certainty by the Oberserver before reaching the singularity. This approach also discards the common consideration while using polar coordinates to consider that at certain t if r=0 Events at that place have the same coordinate independent of theta, phi. There is no reason to do so if at r=0 there is a singularity where nothing should be stated about it.
 
@@ -265,7 +272,7 @@ There are several considerations to analyze on the Bean Boundaries:
 
 * The Bean Boundary, same as Lazy Boundaries, could be infered by the Observer if a predefined set of comoving test particles with same theta, phi also falling in the singularity emit Blips at regular intervals as these will be received with increasing period by the Observer proper time, that increase of the redshift can be used to calculate the distance at which the Boundaries are and the time remaining until reaching the singularity. The Bean Boundary could also use comoving test particles with different theta and phi, the Observer will detect initial redshit on these too but they will be followed by a blueshift as the Observer approaches the singularity.
 
-# Conclusions and further work
+# 6. Conclusions and further work
 
 It has been shown that for an Observer falling behind an Event Horizon of a non rotating black hole a Signal Boundary is formed around it, surrounding it totally. 
 
@@ -285,17 +292,18 @@ Following work should be considered:
 
 * Derivation of observable efects in relation to Quatum Fields, which might be measurable by the Observer before passing the Event Horizon and which might help to identify if the Singal Boundaries described in this paper align with experiments and which (Lazy Boundaries, Bean Boundary or a probabilistic distribution within the Limit Boundaries) assumption fits better the data. Related to this point the author has written a separate paper on how this could be done, the paper is titled "Speculative Consequences Of Signal Boundaries".
 
-# Adknowledgements and Disclaimer
+# 7. Adknowledgements and Disclaimer
 
 The author would like to specially thank Edwin F. Taylor, John Archibald Wheeler, and Edmund Bertschinger as most of this paper is written based on these authors derivations for static Black Holes [6] and this investigation was triggered by Andrew Hamilton [7].
 
 This version (v0.1) has not been reviewed at all, the author recognizes that until it is reviewed there can be errors that make conclusions not valid, or that this analysis has already been done by other authors, in this case I recognize whoever did this before me by Aug 2025.
 
-# References 
+# 8. References 
 
 * [1] https://en.wikipedia.org/wiki/Hyperbolic_motion_(relativity)
 * [2] https://en.wikipedia.org/wiki/Rindler_coordinates
 * [3] https://en.wikipedia.org/wiki/Gullstrand%E2%80%93Painlev%C3%A9_coordinates
+* [3.1] https://books.google.com.ni/books/about/The_Road_to_Reality.html?id=coahAAAACAAJ
 * [4] https://stuleja.org/grorbits/
 * [5] https://github.com/f-alonso-vendrell/grorbits
 * [6] https://www.eftaylor.com/exploringblackholes/
@@ -303,6 +311,7 @@ This version (v0.1) has not been reviewed at all, the author recognizes that unt
 
 Additionally the following articles have inspired this paper.
 
+* Roger Penrose - The Road to Reallity
 * Abhay Ashtekar, Badri Krishnan - Dynamical Horizons and their properties - https://arxiv.org/abs/gr-qc/0308033 
 * Jonathan Thornburg - Event and Apparent Horizon Finders for 3+1 Numerical Relativity - https://arxiv.org/abs/gr-qc/0512169
 * W. Rindler - Visual Horizons in World Models https://academic.oup.com/mnras/article/116/6/662/2603910?login=false
@@ -336,7 +345,7 @@ The Blip triangular sectors defined this way are orientable (e.g. An arbitrary o
 
 Additionally for two timeslices close enough (t1 and t2), if none of the rays within a triangular sector (defined by ray 1, ray 2, and ray 3) end in a singularity between t1 and t2 both included, then wthe definition of orientation can be kept between t1 and t2. In this case, the triangular sector changes with time in a continous manner.
 
-# ANNEX B
+# ANNEX B - Blip detection by Observer
 
 ![Fig 20. Blip Observation by Observer in Volume and when Observer moves in a flat plane](Fig20.png "Blip detection by Observer")
 
