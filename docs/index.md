@@ -8,6 +8,7 @@
 ## Speculative consequences of Signal Boundaries in Static Black Holes
 
 * [Markdown document](./SpeculativeConsequencesOfSignalBoundaries)
+* [PDF document v0.1](./Speculative%20Consequences%20Of%20Signal%20Boundaries%20for%20Swartzchild%20Black%20Holes.pdf)
 
 ## GitHub Source
 
